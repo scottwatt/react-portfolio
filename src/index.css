@@ -1,7 +1,7 @@
 body {
   font-family: Work Sans;
   text-align: center;
-  background-color: aliceblue;
+  background-color: rgb(90, 132, 170);
 
 }
 
@@ -9,7 +9,7 @@ body {
   text-align: center;
   display: block;
   width: 100%;
-  background-color: aliceblue;
+  background-color: rgb(90, 132, 170);
   
 }
 
@@ -41,7 +41,7 @@ main {
 }
 
 footer.footer {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(173, 172, 172);
 }
 
 
