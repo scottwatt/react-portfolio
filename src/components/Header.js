@@ -8,7 +8,6 @@ import Resume from "./Resume";
 function Header() {
   const [currentPage, handlePageChange] = useState("About");
 
-  // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {
     switch (currentPage) {
       case "About":
