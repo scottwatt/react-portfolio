@@ -4,6 +4,16 @@ import Project from "./Project";
 const projects = [
   {
     id: 0,
+    title: "Task Manager",
+    languages: "html, css, js",
+    packages: "Express.js, bcrypt, dotenv, MongoDb, React.js, Node.js",
+    image: "/img/portfolio.png",
+    description: "Sign up or log in and create tasks on the calendar to keep track of. Press toggle tasks to view all tasks created and it sorts the tasks based off priority and time remaining! When the task is complete or the time has elapsed the task's ending time, the task will move to a finished task section. All data is stored in a database and can be edited and deleted.",
+    repo: "https://github.com/scottwatt/Task_Manager",
+    live: "https://task-manager-scott.herokuapp.com/",
+  },
+  {
+    id: 1,
     title: "Blackjack",
     languages: "html, css, js",
     packages: "none",
@@ -13,7 +23,7 @@ const projects = [
     live: "https://scottwatt.github.io/blackjack//",
   },
   {
-    id: 1,
+    id: 2,
     title: "AGI Website",
     languages: "html, php, bootstrap, css, sass, js",
     packages: "none",
@@ -23,7 +33,7 @@ const projects = [
     live: "https://scottwatt.github.io/Agi/",
   },
   {
-    id: 2,
+    id: 3,
     title: "edTrance",
     languages: "html, css, handelbars, js, bootsrap",
     packages: "bcrypt, dotenv, express, express-handlebars, express-session, handlebars, mysql2, sweetalert2, sequelize",
@@ -33,7 +43,7 @@ const projects = [
     repo: "https://github.com/cassandrakise/school-portal",
   },
   {
-    id: 3,
+    id: 4,
     title: "Movie Search",
     languages: "html, css, js, materialize",
     image: "/img/moviesearch.png",
@@ -43,7 +53,7 @@ const projects = [
     live: "https://scottwatt.github.io/Movie_Search/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Note Taker",
     languages: "html, css, js",
     packages: "Express.js, Generate Unique IDs",
@@ -51,16 +61,6 @@ const projects = [
     description: "Write notes that you can save or delete.",
     repo: "https://github.com/scottwatt/noteTaker",
     live: "https://fast-chamber-64929.herokuapp.com/",
-  },
-  {
-    id: 5,
-    title: "Basic Portfolio",
-    languages: "html, css",
-    packages: "none",
-    image: "/img/portfolio.png",
-    description: "My first portfolio that keeps track of my work!",
-    repo: "https://github.com/scottwatt/Portfolio",
-    live: "https://scottwatt.github.io/Portfolio/",
   },
   {
     id: 6,
